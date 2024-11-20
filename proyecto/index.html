@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raíces y Ritmos UPG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo_upg.png" alt="Logo UPG"  width="250" height="100">
+
+            <h1>Actividades Culturales UPG</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos</h2>
+            <p>Descubre todas las actividades culturales que la Universidad Politécnica de Guanajuato tiene para ti.</p>
+            <button id="boton-eventos">Ver próximos eventos</button>
+        </section>
+
+        <section id="eventos">
+            <h2>Próximos Eventos</h2>
+            <div class="evento">
+                <h3>Concierto de Música Tradicional</h3>
+                <p>Fecha: 25 de noviembre</p>
+                <p>Lugar: Auditorio UPG</p>
+            </div>
+            <div class="evento">
+                <h3>Taller de Pintura</h3>
+                <p>Fecha: 30 de noviembre</p>
+                <p>Lugar: Sala de arte UPG</p>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería</h2>
+            <div class="galeria-grid">
+                <img src="evento1.jpg" alt="Evento cultural 1">
+                <img src="evento2.jpg" alt="Evento cultural 2">
+                <img src="evento3.jpg" alt="Evento cultural 3">
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Universidad Politécnica de Guanajuato - Actividades Culturales</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

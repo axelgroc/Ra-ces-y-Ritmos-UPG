@@ -1,0 +1,193 @@
+/* ---- Estilos para la sección de Inicio ---- */
+#inicio {
+    text-align: center;
+    background: linear-gradient(to bottom, #e3f2fd, #bbdefb);
+    color: #004080;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#inicio p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#inicio button {
+    font-size: 1.1rem;
+    padding: 12px 25px;
+    background: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+#inicio button:hover {
+    background: #004080;
+    transform: scale(1.05);
+}
+
+/* ---- Estilos para la sección de Eventos ---- */
+#eventos {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.evento {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #90caf9;
+    border-radius: 8px;
+    background: #e3f2fd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.evento h3 {
+    color: #004080;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.evento p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* ---- Estilos para la sección de Galería ---- */
+#galeria {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.galeria-grid img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.galeria-grid img:hover {
+    transform: scale(1.05);
+}
+
+/* ---- Estilos para la sección de Contacto ---- */
+#contacto {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contacto p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+form label {
+    font-weight: bold;
+    color: #004080;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    width: 100%;
+    background: #004080;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+form button:hover {
+    background: #0066cc;
+    transform: scale(1.05);
+}
+/* Fondo general de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f8ff; /* Fondo suave azul claro */
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(to right, #004080, #0066cc); /* Fondo degradado */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Fondo para las secciones principales */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para las secciones */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Fondo para la sección de eventos */
+#eventos {
+    background-color: #e3f2fd; /* Azul claro suave para eventos */
+}
+
+/* Fondo para la sección de galería */
+#galeria {
+    background-color: #ffffff; /* Blanco para la galería */
+}
+
+/* Fondo para la sección de contacto */
+#contacto {
+    background-color: #f9f9f9; /* Gris suave para contacto */
+}
+
+/* Fondo para la página de inicio */
+#inicio {
+    background-color: #bbdefb; /* Azul suave */
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustes para el pie de página */
+footer {
+    background-color: #004080; /* Azul oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
